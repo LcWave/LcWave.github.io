@@ -17,13 +17,3 @@ He has a broad research interest in collaborative edge computing, network measur
 - **2022.09:** One Paper Accepted - ICPADS (CCF-C)
 
 ## Publications
-
-### Network Measurement (WIP)
-
-![Network Measurement Diagram](/assets/images/diagram.jpg)
-
-**LEFT:** Efficient Large Entries Retrieval in Network Monitoring
-
-Authors: Wei Liang, Yuhui Li, Kun Xie, Naixue Xiong, Dafang Zhang, Kuan-Ching Li
-
-Abstract: We observe that neural tensor completions (NTCs) bring better data recovery accuracy...
