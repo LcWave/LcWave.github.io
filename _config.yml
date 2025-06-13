@@ -26,14 +26,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Yuhui Li"
-  avatar           : "images/lyh.jpeg"
-  bio              : "PhD Student at The Hong Kong Polytechnic University"
-  location         : "Hong Kong SAR, China"
+  name             : "Canwei Liu"
+  avatar           : "images/lcw.jpg"
+  bio              : "Master Student of Central South University"
+  location         : "Changsha, China"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : # "http://yourfullgooglescholarurl.com"
-  email            : "merrill.li@connect.polyu.hk"
+  email            : "canweiliu@csu.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -42,7 +42,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "merrillli"
+  github           : "LcWave"
   google_plus      :
   keybase          :
   instagram        :
