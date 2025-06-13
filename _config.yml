@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "LI Yuhui @ IMCL"
-description              : "PhD Student at HKPolyU"
-repository               : "merrillli/merrillli.github.io"
+title                    : "Liu Canwei @ CSU"
+description              : "Master Student at CSU"
+repository               : "LcWave/LcWave.github.io"
 
 # SEO Related
 google_site_verification :
