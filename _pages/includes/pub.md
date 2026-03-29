@@ -5,7 +5,7 @@
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class='paper-status-badge'>Neurocomputing · SCI Q1 · CCF-C · RRC</div>
-    <div class='placeholder-card'>Paper image placeholder</div>
+    <img src='images/TFKAN.png' alt='TFKAN graphical abstract' width='100%'>
   </div>
 
   <div class='paper-box-text' markdown="1">
@@ -18,7 +18,7 @@ Xiaoyan Kui, **Canwei Liu**, Qinsong Li, Zhipeng Hu, Yangyang Shi, Weixin Si, Be
   <summary>Paper Summary</summary>
   <ul class="paper-summary-list">
     <li><strong>My Roles</strong>: Idea, Experiments, Writing</li>
-    <li><strong>Abstract</strong>: This paper proposes a time-frequency KAN framework for long-term time-series forecasting, aiming to better capture temporal dependencies and frequency-aware patterns for improved predictive performance.</li>
+    <li><strong>Abstract</strong>: This paper introduces TFKAN, a dual-branch time-frequency Kolmogorov-Arnold Network for long-term time-series forecasting. The method extends KANs from the time domain to the Fourier spectrum, enabling adaptive B-spline basis functions to model sparse and localized spectral peaks associated with periodic signals. By jointly learning temporal dynamics and frequency-domain structure, while sharing KAN processing over complex spectral components and selectively enhancing frequency representations, TFKAN achieves strong forecasting performance across multiple public benchmarks.</li>
   </ul>
 </details>
   </div>
@@ -27,19 +27,19 @@ Xiaoyan Kui, **Canwei Liu**, Qinsong Li, Zhipeng Hu, Yangyang Shi, Weixin Si, Be
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class='paper-status-badge'>KBS · SCI Q1 · CCF-C · UR after revision</div>
-    <div class='placeholder-card'>Paper image placeholder</div>
+    <img src='images/MPJL.png' alt='MPJL framework' width='100%'>
   </div>
 
   <div class='paper-box-text' markdown="1">
 **Multi-Period Joint Learning with Period-Aligned Relational Imaging for Industrial Multivariate Time-Series Anomaly Detection**  
-**Canwei Liu**, Xiaoyan Kui, Qinsong Li, Zhipeng Hu, Yangyang Shi, Weixin Si, Beiji Zou  
+**Canwei Liu**, Lei Chen, Zhipeng Hu, Shen Jiang, Ying Zou, Tingqin He  
 *Under review after revision at Knowledge-Based Systems* (**SCI Q1**, **CCF-C**).
 
 <details>
   <summary>Paper Summary</summary>
   <ul class="paper-summary-list">
     <li><strong>My Roles</strong>: Idea, Experiments, Writing</li>
-    <li><strong>Abstract</strong>: This paper proposes a multi-period joint learning framework with period-aligned relational imaging for industrial multivariate time-series anomaly detection, aiming to enhance anomaly discrimination by jointly modeling periodic structure and relational patterns.</li>
+    <li><strong>Abstract</strong>: This paper proposes MPJL, a period-prior-informed framework for unsupervised anomaly detection in industrial multivariate time series. To address multi-scale periodicity, non-stationary phase drift, and impulsive sensor noise, the method integrates timestamp-centric GAF relational imaging, multi-period adaptive experts configured by ERF alignment, a drift-aware predictive objective, and an optimistic expert aggregation rule. Experiments on industrial benchmarks show competitive overall performance, with particularly strong threshold-free ranking ability and improved robustness under proxy, pooling, and threshold variations.</li>
   </ul>
 </details>
   </div>
@@ -50,20 +50,20 @@ Xiaoyan Kui, **Canwei Liu**, Qinsong Li, Zhipeng Hu, Yangyang Shi, Weixin Si, Be
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class='paper-status-badge'>Mathematics · SCI Q1</div>
-    <div class='placeholder-card'>Paper image placeholder</div>
+    <img src='images/MVFEE.png' alt='MVFEE framework' width='100%'>
   </div>
 
   <div class='paper-box-text' markdown="1">
 **Multi-View Learning-Based Fast Edge Embedding for Heterogeneous Graphs**  
 **Canwei Liu**, Xingye Deng, Tingqin He, Lei Chen, Guangyang Deng, Yuanyu Hu  
-*Mathematics*, 2023.  
+*Mathematics*, 2023, 11(13): 2974.  
 [[DOI]](https://doi.org/10.3390/math11132974)
 
 <details>
   <summary>Paper Summary</summary>
   <ul class="paper-summary-list">
     <li><strong>My Roles</strong>: Idea, Experiments, Writing</li>
-    <li><strong>Abstract</strong>: This paper proposes a multi-view learning based fast edge embedding model for heterogeneous graphs, aiming to improve both the efficiency and representation quality of edge embedding in heterogeneous graph analysis.</li>
+    <li><strong>Abstract</strong>: This paper proposes MVFEE, a multi-view learning-based fast edge embedding model for heterogeneous graphs. To avoid the inefficiency and accuracy limitations of existing methods that learn on large edge graphs directly, the model follows a divide-and-conquer strategy by decomposing global edge representation learning into intra-view and inter-view feature learning. Specifically, each edge type is treated as a separate view, private skip-gram models are used to efficiently capture intra-view proximity, cross-view learning is introduced to model semantic relations between views, and a multi-head attention mechanism aggregates these local features into accurate global edge embeddings.</li>
   </ul>
 </details>
   </div>
@@ -74,7 +74,7 @@ Xiaoyan Kui, **Canwei Liu**, Qinsong Li, Zhipeng Hu, Yangyang Shi, Weixin Si, Be
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class='paper-status-badge'>Energies · SCI Q1</div>
-    <div class='placeholder-card'>Paper image placeholder</div>
+    <img src='images/EDPVP.png' alt='EDPVP framework' width='100%'>
   </div>
 
   <div class='paper-box-text' markdown="1">
@@ -87,7 +87,7 @@ Xingye Deng, **Canwei Liu**, Hualiang Liu, Lei Chen, Yuyan Guo, Heding Zhen
   <summary>Paper Summary</summary>
   <ul class="paper-summary-list">
     <li><strong>My Roles</strong>: Experiments, Writing</li>
-    <li><strong>Abstract</strong>: This paper proposes a clustering-based method for reactive voltage partitioning in power grids, improving the effectiveness of partitioning under complex power system conditions.</li>
+    <li><strong>Abstract</strong>: This paper proposes an enhanced density peak model-based method for reactive voltage partitioning in power grids. To better handle heterogeneous electrical characteristics and irregular, uneven power-load distributions, the method models the grid as a weighted reactive network and redesigns local density and density-following distance for this setting. It further introduces improved cluster-center selection and remaining-node assignment strategies, leading to more accurate and adaptable partitioning performance on real power-grid datasets.</li>
   </ul>
 </details>
   </div>
