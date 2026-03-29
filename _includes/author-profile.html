@@ -30,9 +30,11 @@
       {% endif %}
       {% if author.email %}
         <li>
-          <a href="javascript:void(0);" onclick="copyEmail('{{ author.email }}')">
+          <button type="button"
+                  onclick="navigator.clipboard.writeText('{{ author.email }}').then(function(){alert('Email copied successfully!');}).catch(function(){alert('Copy failed. Please copy manually: {{ author.email }}');})"
+                  style="background:none;border:none;padding:0;margin:0;color:inherit;font:inherit;cursor:pointer;">
             <i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email
-          </a>
+          </button>
         </li>
       {% endif %}
       {% if author.keybase %}
@@ -128,9 +130,11 @@
         <a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.email %}
-        <a href="javascript:void(0);" onclick="copyEmail('{{ author.email }}')">
+        <button type="button"
+                onclick="navigator.clipboard.writeText('{{ author.email }}').then(function(){alert('Email copied successfully!');}).catch(function(){alert('Copy failed. Please copy manually: {{ author.email }}');})"
+                style="background:none;border:none;padding:0;margin:0;color:inherit;font:inherit;cursor:pointer;">
           <i class="fas fa-fw fa-envelope" aria-hidden="true"></i>
-        </a>
+        </button>
       {% endif %}
       {% if author.keybase %}
         <a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i></a>
