@@ -30,11 +30,10 @@
       {% endif %}
       {% if author.email %}
         <li>
-          <button type="button"
-                  onclick="navigator.clipboard.writeText('{{ author.email }}').then(function(){alert('Email copied successfully!');}).catch(function(){alert('Copy failed. Please copy manually: {{ author.email }}');})"
-                  style="background:none;border:none;padding:0;margin:0;color:inherit;font:inherit;cursor:pointer;">
+          <a href=""
+             onclick="event.preventDefault(); copyEmail('{{ author.email }}');">
             <i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email
-          </button>
+          </a>
         </li>
       {% endif %}
       {% if author.keybase %}
@@ -123,23 +122,24 @@
       {% endif %}
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
-{% endif %}
+      {% endif %}
     </ul>
-      <div class="author__urls_sm">
+
+    <div class="author__urls_sm">
       {% if author.uri %}
         <a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.email %}
-        <button type="button"
-                onclick="navigator.clipboard.writeText('{{ author.email }}').then(function(){alert('Email copied successfully!');}).catch(function(){alert('Copy failed. Please copy manually: {{ author.email }}');})"
-                style="background:none;border:none;padding:0;margin:0;color:inherit;font:inherit;cursor:pointer;">
+        <a href=""
+           title="Copy email"
+           onclick="event.preventDefault(); copyEmail('{{ author.email }}');">
           <i class="fas fa-fw fa-envelope" aria-hidden="true"></i>
-        </button>
+        </a>
       {% endif %}
       {% if author.keybase %}
         <a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i></a>
       {% endif %}
-       {% if author.researchgate %}
+      {% if author.researchgate %}
         <a href="{{ author.researchgate }}"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.twitter %}
@@ -227,3 +227,35 @@
   </div>
 </div>
 
+<script>
+  function copyEmail(email) {
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(email).then(function () {
+        alert("Email copied successfully!");
+      }).catch(function () {
+        fallbackCopyEmail(email);
+      });
+    } else {
+      fallbackCopyEmail(email);
+    }
+  }
+
+  function fallbackCopyEmail(email) {
+    var textArea = document.createElement("textarea");
+    textArea.value = email;
+    textArea.setAttribute("readonly", "");
+    textArea.style.position = "fixed";
+    textArea.style.left = "-9999px";
+    document.body.appendChild(textArea);
+    textArea.select();
+
+    try {
+      document.execCommand("copy");
+      alert("Email copied successfully!");
+    } catch (err) {
+      alert("Please copy manually: " + email);
+    }
+
+    document.body.removeChild(textArea);
+  }
+</script>
