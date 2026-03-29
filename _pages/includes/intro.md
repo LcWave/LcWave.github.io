@@ -1,6 +1,6 @@
 ## 👨‍🎓 About Me
 
-I am Canwei Liu, currently a master’s student at the School of Computer Science, Central South University, based in Changsha, Hunan, China. I am pursuing my graduate studies under the supervision of [Prof. Xiaoyan Kui](https://faculty.csu.edu.cn/kuixiaoyan/zh_CN/index.htm).
+I am Canwei Liu, currently a master’s student at the School of computer science and engineering, Central South University, based in Changsha, Hunan, China. I am pursuing my graduate studies under the supervision of [Prof. Xiaoyan Kui](https://faculty.csu.edu.cn/kuixiaoyan/zh_CN/index.htm).
 
 My current research focuses on **time-series forecasting, anomaly detection, and dose prediction**.
 
