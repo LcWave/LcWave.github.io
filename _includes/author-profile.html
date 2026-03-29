@@ -29,12 +29,7 @@
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
       {% endif %}
       {% if author.email %}
-        <li>
-          <a href=""
-             onclick="event.preventDefault(); copyEmail('{{ author.email }}');">
-            <i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ author.email }}
-          </a>
-        </li>
+        <li><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ author.email }}</li>
       {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
@@ -129,13 +124,6 @@
       {% if author.uri %}
         <a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>
       {% endif %}
-      {% if author.email %}
-        <a href=""
-           title="Copy email"
-           onclick="event.preventDefault(); copyEmail('{{ author.email }}');">
-          <i class="fas fa-fw fa-envelope" aria-hidden="true"></i>
-        </a>
-      {% endif %}
       {% if author.keybase %}
         <a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i></a>
       {% endif %}
@@ -226,53 +214,3 @@
     </div>
   </div>
 </div>
-
-<div id="copy-email-toast" style="position: fixed; left: 24px; bottom: 24px; background: rgba(40, 40, 40, 0.92); color: #fff; padding: 10px 14px; border-radius: 8px; font-size: 14px; line-height: 1.2; opacity: 0; pointer-events: none; transform: translateY(8px); transition: opacity 0.2s ease, transform 0.2s ease; z-index: 9999;">
-  Email copied
-</div>
-
-<script>
-  function showCopyToast(message) {
-    var toast = document.getElementById("copy-email-toast");
-    if (!toast) return;
-    toast.textContent = message || "Email copied";
-    toast.style.opacity = "1";
-    toast.style.transform = "translateY(0)";
-    clearTimeout(toast._hideTimer);
-    toast._hideTimer = setTimeout(function () {
-      toast.style.opacity = "0";
-      toast.style.transform = "translateY(8px)";
-    }, 1600);
-  }
-
-  function copyEmail(email) {
-    if (navigator.clipboard && window.isSecureContext) {
-      navigator.clipboard.writeText(email).then(function () {
-        showCopyToast("Email copied");
-      }).catch(function () {
-        fallbackCopyEmail(email);
-      });
-    } else {
-      fallbackCopyEmail(email);
-    }
-  }
-
-  function fallbackCopyEmail(email) {
-    var textArea = document.createElement("textarea");
-    textArea.value = email;
-    textArea.setAttribute("readonly", "");
-    textArea.style.position = "fixed";
-    textArea.style.left = "-9999px";
-    document.body.appendChild(textArea);
-    textArea.select();
-
-    try {
-      document.execCommand("copy");
-      showCopyToast("Email copied");
-    } catch (err) {
-      showCopyToast("Please copy manually: " + email);
-    }
-
-    document.body.removeChild(textArea);
-  }
-</script>
