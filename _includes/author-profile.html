@@ -31,8 +31,9 @@
       {% if author.email %}
         <li>
           <a href=""
-             onclick="event.preventDefault(); copyEmail('{{ author.email }}');">
-            <i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email
+             title="Copy email"
+             onclick="event.preventDefault(); if (navigator.clipboard && window.isSecureContext) { navigator.clipboard.writeText('{{ author.email }}').then(function(){alert('Email copied successfully!');}).catch(function(){alert('Please copy manually: {{ author.email }}');}); } else { var ta=document.createElement('textarea'); ta.value='{{ author.email }}'; ta.setAttribute('readonly',''); ta.style.position='fixed'; ta.style.left='-9999px'; document.body.appendChild(ta); ta.select(); try { document.execCommand('copy'); alert('Email copied successfully!'); } catch (err) { alert('Please copy manually: {{ author.email }}'); } document.body.removeChild(ta); }">
+            <i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ author.email }}
           </a>
         </li>
       {% endif %}
@@ -132,7 +133,7 @@
       {% if author.email %}
         <a href=""
            title="Copy email"
-           onclick="event.preventDefault(); copyEmail('{{ author.email }}');">
+           onclick="event.preventDefault(); if (navigator.clipboard && window.isSecureContext) { navigator.clipboard.writeText('{{ author.email }}').then(function(){alert('Email copied successfully!');}).catch(function(){alert('Please copy manually: {{ author.email }}');}); } else { var ta=document.createElement('textarea'); ta.value='{{ author.email }}'; ta.setAttribute('readonly',''); ta.style.position='fixed'; ta.style.left='-9999px'; document.body.appendChild(ta); ta.select(); try { document.execCommand('copy'); alert('Email copied successfully!'); } catch (err) { alert('Please copy manually: {{ author.email }}'); } document.body.removeChild(ta); }">
           <i class="fas fa-fw fa-envelope" aria-hidden="true"></i>
         </a>
       {% endif %}
@@ -226,36 +227,3 @@
     </div>
   </div>
 </div>
-
-<script>
-  function copyEmail(email) {
-    if (navigator.clipboard && window.isSecureContext) {
-      navigator.clipboard.writeText(email).then(function () {
-        alert("Email copied successfully!");
-      }).catch(function () {
-        fallbackCopyEmail(email);
-      });
-    } else {
-      fallbackCopyEmail(email);
-    }
-  }
-
-  function fallbackCopyEmail(email) {
-    var textArea = document.createElement("textarea");
-    textArea.value = email;
-    textArea.setAttribute("readonly", "");
-    textArea.style.position = "fixed";
-    textArea.style.left = "-9999px";
-    document.body.appendChild(textArea);
-    textArea.select();
-
-    try {
-      document.execCommand("copy");
-      alert("Email copied successfully!");
-    } catch (err) {
-      alert("Please copy manually: " + email);
-    }
-
-    document.body.removeChild(textArea);
-  }
-</script>
