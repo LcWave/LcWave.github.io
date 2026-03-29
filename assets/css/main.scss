@@ -108,3 +108,26 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+
+.placeholder-card {
+    width: 100%;
+    min-height: 180px;
+    border: 2px dashed #c8c8c8;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #7a7a7a;
+    background: #fafafa;
+    padding: 1rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+@include breakpoint($medium) {
+    .placeholder-card {
+        min-height: 160px;
+    }
+}

@@ -1,5 +1,6 @@
 # 📖 Education
-- *Current*, **Master's Student**, Central South University, Changsha, Hunan, China
+- *Current*, **Master's Student**, Central South University, Changsha, Hunan, China  
+  Supervisor: **Prof. Xiaoyan Kui**
 
 - *2020.09 - 2024*, **B.Eng. in Computer Science and Technology**, Hunan University of Science and Technology  
   GPA: **3.72/4.0** | Rank: **1/238** | CET-4: **566** | CET-6: **488**
