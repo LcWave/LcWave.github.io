@@ -1,79 +1,75 @@
 # 📝 Publications
 
-## Time-Series Forecasting
+## 📈 Time-Series Analysis
 
 <div class='paper-box'>
 <div class='paper-box-image'>
+  <div class='paper-status-badge'>Neurocomputing · SCI Q1 · RRC</div>
   <div class='placeholder-card'>Paper image placeholder</div>
 </div>
 <div class='paper-box-text' markdown="1">
 **TFKAN: Time-Frequency KAN for Long-Term Time Series Forecasting**  
 Xiaoyan Kui, **Canwei Liu**, Qinsong Li, Zhipeng Hu, Yangyang Shi, Weixin Si, Beiji Zou  
-*Under review at Neurocomputing* (**JCR Q1**, **RRC status**).  
+*Under review at Neurocomputing* (**SCI Q1**, **RRC status**).  
 [[arXiv]](https://arxiv.org/abs/2506.12696)
 
 <details>
 <summary>Paper Summary</summary>
 
-- Keywords: time series forecasting, frequency domain learning, KAN
-- My role: Second author
-- Summary: A time-frequency KAN framework for long-term time series forecasting.
-- Reserved visual slot: arXiv first page, framework figure, or submission snapshot
+- **My Roles**: Idea, Experiments, Writing
+- **Abstract**: This paper proposes a time-frequency KAN framework for long-term time-series forecasting, aiming to better capture temporal dependencies and frequency-aware patterns for improved predictive performance.
 
 </details>
 </div>
 </div>
 
-## Anomaly Detection
-
 <div class='paper-box'>
 <div class='paper-box-image'>
+  <div class='paper-status-badge'>KBS · SCI Q1 · UR after revision</div>
   <div class='placeholder-card'>Paper image placeholder</div>
 </div>
 <div class='paper-box-text' markdown="1">
 **Multi-Period Joint Learning with Period-Aligned Relational Imaging for Industrial Multivariate Time-Series Anomaly Detection**  
 **Canwei Liu**, Xiaoyan Kui, Qinsong Li, Zhipeng Hu, Yangyang Shi, Weixin Si, Beiji Zou  
-*Under review after revision at Knowledge-Based Systems* (**JCR Q1**).  
+*Under review after revision at Knowledge-Based Systems* (**SCI Q1**).
 
 <details>
 <summary>Paper Summary</summary>
 
-- Keywords: anomaly detection, multivariate time series, period-aligned relational imaging
-- My role: Core author
-- Summary: A multi-period joint learning framework for industrial multivariate time-series anomaly detection.
-- Reserved visual slot: framework figure, result visualization, or submission snapshot
+- **My Roles**: Idea, Experiments, Writing
+- **Abstract**: This paper proposes a multi-period joint learning framework with period-aligned relational imaging for industrial multivariate time-series anomaly detection, aiming to enhance anomaly discrimination by jointly modeling periodic structure and relational patterns.
 
 </details>
 </div>
 </div>
 
-## Dose Prediction
+## 🩺 Dose Prediction
 
 <div class='paper-box'>
 <div class='paper-box-image'>
+  <div class='paper-status-badge'>Review Paper · In preparation</div>
   <div class='placeholder-card'>Paper image placeholder</div>
 </div>
 <div class='paper-box-text' markdown="1">
 **A Review of Dose Prediction Methods for Tumor Radiation Therapy**  
-[Please fill in full author list here, keeping your name highlighted as **Canwei Liu**]  
-*Manuscript in preparation / collaborative review paper.*  
+[Please fill in the full author list here, with **Canwei Liu** highlighted.]  
+*Collaborative review paper / manuscript in preparation.*
 
 <details>
 <summary>Paper Summary</summary>
 
-- Keywords: dose prediction, radiation therapy, tumor treatment, review
-- My role: Participated in writing
-- Summary: A review of recent dose prediction methods for tumor radiation therapy.
-- Reserved visual slot: review framework, taxonomy figure, or first-page screenshot
+- **My Roles**: Writing
+- **Abstract**: This review summarizes recent dose prediction methods for tumor radiation therapy, with a focus on data-driven and deep learning based approaches for improving treatment planning quality and efficiency.
 
 </details>
 </div>
 </div>
 
-## Graph Learning / Hypergraph Neural Networks
+## 🕸️ Graph Representation Learning
 
 <div class='paper-box'>
 <div class='paper-box-image'>
+  <div class='paper-status-badge'>Mathematics · SCI Q2</div>
   <div class='placeholder-card'>Paper image placeholder</div>
 </div>
 <div class='paper-box-text' markdown="1">
@@ -85,10 +81,8 @@ Xiaoyan Kui, **Canwei Liu**, Qinsong Li, Zhipeng Hu, Yangyang Shi, Weixin Si, Be
 <details>
 <summary>Paper Summary</summary>
 
-- Keywords: heterogeneous graphs, edge embedding, multi-view learning
-- My role: First author
-- Summary: A multi-view learning based fast edge embedding model for heterogeneous graphs.
-- Reserved visual slot: paper cover, first page, or method figure
+- **My Roles**: Idea, Experiments, Writing
+- **Abstract**: This paper proposes a multi-view learning based fast edge embedding model for heterogeneous graphs, aiming to improve both the efficiency and representation quality of edge embedding in heterogeneous graph analysis.
 
 </details>
 </div>
@@ -96,6 +90,7 @@ Xiaoyan Kui, **Canwei Liu**, Qinsong Li, Zhipeng Hu, Yangyang Shi, Weixin Si, Be
 
 <div class='paper-box'>
 <div class='paper-box-image'>
+  <div class='paper-status-badge'>SmartCom / LNCS · EI · CCF-C</div>
   <div class='placeholder-card'>Paper image placeholder</div>
 </div>
 <div class='paper-box-text' markdown="1">
@@ -107,19 +102,18 @@ Xiaoyan Kui, **Canwei Liu**, Qinsong Li, Zhipeng Hu, Yangyang Shi, Weixin Si, Be
 <details>
 <summary>Paper Summary</summary>
 
-- Keywords: recommender systems, hypergraph neural networks, social recommendation
-- My role: First author
-- Summary: A survey of recommender systems based on hypergraph neural networks.
-- Reserved visual slot: paper cover, first page, or summary figure
+- **My Roles**: Idea, Writing
+- **Abstract**: This survey reviews recommender systems based on hypergraph neural networks, summarizing their main research directions, advantages, and open challenges in recommendation scenarios.
 
 </details>
 </div>
 </div>
 
-## Other Contributed Work
+## ⚡ Power Systems and Smart Grid Analytics
 
 <div class='paper-box'>
 <div class='paper-box-image'>
+  <div class='paper-status-badge'>Energies · SCI Q3</div>
   <div class='placeholder-card'>Paper image placeholder</div>
 </div>
 <div class='paper-box-text' markdown="1">
@@ -131,10 +125,8 @@ Xingye Deng, **Canwei Liu**, Hualiang Liu, Lei Chen, Yuyan Guo, Heding Zhen
 <details>
 <summary>Paper Summary</summary>
 
-- Keywords: power grid, reactive voltage partitioning, clustering
-- My role: Second author
-- Summary: A clustering-based method for reactive voltage partitioning in power grids.
-- Reserved visual slot: paper cover, first page, or experimental figure
+- **My Roles**: Experiments, Writing
+- **Abstract**: This paper proposes a clustering-based method for reactive voltage partitioning in power grids, improving the effectiveness of partitioning under complex power system conditions.
 
 </details>
 </div>
