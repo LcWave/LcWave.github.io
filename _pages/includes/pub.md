@@ -73,7 +73,7 @@ Xiaoyan Kui, **Canwei Liu**, Qinsong Li, Zhipeng Hu, Yangyang Shi, Weixin Si, Be
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div class='paper-status-badge'>Energies · SCI Q1</div>
+    <div class='paper-status-badge'>Energies · SCI Q3</div>
     <img src='images/EDPVP.png' alt='EDPVP framework' width='100%'>
   </div>
 
