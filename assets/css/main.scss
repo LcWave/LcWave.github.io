@@ -40,57 +40,53 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-
 .paper-box {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1.8rem;
   border-bottom: 1px solid #efefef;
-  padding: 2em 0 2em 0;
+  padding: 2em 0;
 }
 
 .paper-box-image {
   position: relative;
   width: 100%;
-  order: 1;
-}
-
-.paper-box-image img,
-.paper-box-image .placeholder-card {
-  width: 100%;
-  display: block;
-  border-radius: 8px;
+  flex: 0 0 auto;
 }
 
 .paper-box-image img {
+  width: 100%;
+  display: block;
+  border-radius: 4px;
   box-shadow: 3px 3px 8px #888;
   object-fit: cover;
 }
 
 .paper-box-text {
   width: 100%;
-  order: 2;
   min-width: 0;
 }
 
 .paper-status-badge {
   position: absolute;
   top: 12px;
-  left: -8px;
-  z-index: 10;
-  background: #0b4ea2;
+  left: -14px;
+  z-index: 20;
+  display: inline-block;
+  background: #003fa3;
   color: #fff;
-  font-size: 0.88rem;
+  font-size: 0.9rem;
   font-weight: 600;
   line-height: 1;
-  padding: 9px 14px;
-  border-radius: 0 4px 4px 0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
+  padding: 8px 14px;
+  border-radius: 0;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.18);
   white-space: nowrap;
 }
 
 .placeholder-card {
-  min-height: 220px;
+  width: 100%;
+  min-height: 250px;
   border: 2px dashed #c8c8c8;
   border-radius: 10px;
   display: flex;
@@ -105,18 +101,18 @@
 }
 
 .paper-box-text details {
-  margin-top: 0.9rem;
+  margin-top: 0.8rem;
 }
 
 .paper-box-text summary {
   cursor: pointer;
   font-weight: 500;
   font-size: 1rem;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.4rem;
 }
 
 .paper-summary-list {
-  margin: 0.8rem 0 0 1.2rem;
+  margin: 0.8rem 0 0 1.4rem;
   padding: 0;
 }
 
@@ -150,22 +146,20 @@ h1:before, .anchor:before {
   .paper-box {
     flex-direction: row;
     align-items: flex-start;
-    gap: 2rem;
+    gap: 2.2rem;
   }
 
   .paper-box-image {
     flex: 0 0 38%;
     max-width: 38%;
-    order: 1;
   }
 
   .paper-box-text {
     flex: 1;
     max-width: 62%;
-    order: 2;
   }
 
   .placeholder-card {
-    min-height: 240px;
+    min-height: 260px;
   }
 }
