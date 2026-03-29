@@ -19,11 +19,11 @@ analytics:
 author:
   name             : "Canwei Liu"
   avatar           : "images/profile.png"
-  bio              : "Undergraduate student in Computer Science and Technology, Hunan University of Science and Technology"
-  location         : "Xiangtan, China"
+  bio              : "Master's student at Central South University"
+  location         : "Changsha, Hunan, China"
   employer         :
   pubmed           :
-  googlescholar    :
+  googlescholar    : "https://scholar.google.com/citations?user=82HN4z0AAAAJ&hl=zh-CN"
   email            : "canweiliu@mail.hnust.edu.cn"
   researchgate     :
   uri              :
