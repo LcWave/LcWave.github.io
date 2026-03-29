@@ -76,16 +76,15 @@
   z-index: 20;
   display: inline-block;
   max-width: calc(100% - 20px);
-  background: rgba(0, 0, 0, 0.72);
+  background: rgba(0, 54, 159, 0.88); /* #00369f + 较高透明度 */
   color: #fff;
   font-size: 0.72rem;
   font-weight: 600;
   line-height: 1.25;
   padding: 6px 10px;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.14);
   white-space: normal;
-  backdrop-filter: blur(2px);
 }
 
 .placeholder-card {
