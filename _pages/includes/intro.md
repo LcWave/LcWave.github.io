@@ -1,9 +1,9 @@
 ## 👨‍🎓 About Me
 
-I am Canwei Liu, currently a master’s student at Central South University, based in Changsha, Hunan, China. I am pursuing my graduate studies under the supervision of [Prof. Xiaoyan Kui](https://faculty.csu.edu.cn/kuixiaoyan/zh_CN/index.htm).
+I am Canwei Liu, currently a master’s student at the School of Computer Science, Central South University, based in Changsha, Hunan, China. I am pursuing my graduate studies under the supervision of [Prof. Xiaoyan Kui](https://faculty.csu.edu.cn/kuixiaoyan/zh_CN/index.htm).
 
-Before joining Central South University, I received my undergraduate training in Computer Science and Technology at the School of Computer Science and Engineering, Hunan University of Science and Technology, where I ranked 1/238 with a GPA of 3.72/4.0.
+Before joining Central South University, I received my undergraduate training in Computer Science and Technology at Hunan University of Science and Technology.
 
-My research interests include graph learning, hypergraph neural networks, heterogeneous graph representation learning, time-series forecasting, and intelligent data analysis. My published work has focused on recommender systems based on hypergraph neural networks and fast edge embedding for heterogeneous graphs, while my recent work has also extended to long-term time-series forecasting.
+My current research focuses on time-series forecasting, anomaly detection, and dose prediction.
 
-Previously, I worked in the Blockchain Laboratory and the Industrial Internet Information Security Team at Hunan University of Science and Technology. My research experience spans hypergraph-based recommendation, heterogeneous graph modeling, and data-driven intelligent analysis.
+Previously, I conducted research in the Blockchain Laboratory under the supervision of [Prof. Wei Liang](https://computer.hnust.edu.cn/dsdw/liangwei.html), and in the Industrial Internet Information Security Team under the supervision of [Prof. Lei Chen](https://xinxi.hnust.edu.cn/szdw/dsdw/ef5cc8c03ffd45aba0effe4ea9adef36.htm), both at Hunan University of Science and Technology.
