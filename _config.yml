@@ -1,6 +1,6 @@
 # Site Settings
 title                    : "Canwei Liu"
-description              : "Academic homepage of Canwei Liu"
+description              : "Master's Student at CSU"
 repository               : "LcWave/LcWave.github.io"
 
 # SEO Related
@@ -19,7 +19,7 @@ analytics:
 author:
   name             : "Canwei Liu"
   avatar           : "images/profile.jpg"
-  bio              : "Master's student at Central South University, supervised by Prof. Xiaoyan Kui"
+  bio              : "Master's student at Central South University"
   location         : "Changsha, Hunan, China"
   employer         :
   pubmed           :
