@@ -1,4 +1,6 @@
 # 👨‍🎓 About Me
-Liu Canwei is currently a first-year Master student in the School of Computer Science and Engineering, Central South University, supervised by [Prof. Xiaoyan Kui](https://faculty.csu.edu.cn/kuixiaoyan/zh_CN/index.htm). Prior to that, she was graduated from School of Computer Science and Engineering, Hunan University of Science and Technology (Rank 3/238, Score 87.56/100, GPA 3.7/4.0) in June 2024 (Supervisor: [Prof. Lei Chen](https://xinxi.hnust.edu.cn/szdw/dsdw/ef5cc8c03ffd45aba0effe4ea9adef36.htm)).
+I am **Canwei Liu**, an undergraduate student in **Computer Science and Technology** at the **School of Computer Science and Engineering, Hunan University of Science and Technology**. My academic record currently ranks **1/238**, with a **GPA of 3.72/4.0**. My interests include **graph learning, hypergraph neural networks, heterogeneous graph representation learning, complex networks, and AI-related data mining**.
 
-I have a broad research interest in time series forecasting, anomaly detection, dose prediction, network embedding, data mining, and deep learning. I have published several papers at the computer conferences/journals.
+I have worked in both the **Blockchain Laboratory** and the **Industrial Internet Information Security Team** at Hunan University of Science and Technology. My recent research focuses on **hypergraph neural networks**, **heterogeneous graph edge embedding**, and **smart grid attack detection**.
+
+I hope to continue pursuing research in graduate school and eventually apply for a **PhD** in a related field.
