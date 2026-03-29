@@ -4,13 +4,13 @@
 
 <div class='paper-box'>
 <div class='paper-box-image'>
-  <div class='paper-status-badge'>Neurocomputing · SCI Q1 · RRC</div>
+  <div class='paper-status-badge'>Neurocomputing · SCI Q1 · CCF-C · RRC</div>
   <div class='placeholder-card'>Paper image placeholder</div>
 </div>
 <div class='paper-box-text' markdown="1">
 **TFKAN: Time-Frequency KAN for Long-Term Time Series Forecasting**  
 Xiaoyan Kui, **Canwei Liu**, Qinsong Li, Zhipeng Hu, Yangyang Shi, Weixin Si, Beiji Zou  
-*Under review at Neurocomputing* (**SCI Q1**, **RRC status**).  
+*Under review at Neurocomputing* (**SCI Q1**, **CCF-C**, **RRC status**).  
 [[arXiv]](https://arxiv.org/abs/2506.12696)
 
 <details>
@@ -25,13 +25,13 @@ Xiaoyan Kui, **Canwei Liu**, Qinsong Li, Zhipeng Hu, Yangyang Shi, Weixin Si, Be
 
 <div class='paper-box'>
 <div class='paper-box-image'>
-  <div class='paper-status-badge'>KBS · SCI Q1 · UR after revision</div>
+  <div class='paper-status-badge'>KBS · SCI Q1 · CCF-C · UR after revision</div>
   <div class='placeholder-card'>Paper image placeholder</div>
 </div>
 <div class='paper-box-text' markdown="1">
 **Multi-Period Joint Learning with Period-Aligned Relational Imaging for Industrial Multivariate Time-Series Anomaly Detection**  
 **Canwei Liu**, Xiaoyan Kui, Qinsong Li, Zhipeng Hu, Yangyang Shi, Weixin Si, Beiji Zou  
-*Under review after revision at Knowledge-Based Systems* (**SCI Q1**).
+*Under review after revision at Knowledge-Based Systems* (**SCI Q1**, **CCF-C**).
 
 <details>
 <summary>Paper Summary</summary>
@@ -43,33 +43,11 @@ Xiaoyan Kui, **Canwei Liu**, Qinsong Li, Zhipeng Hu, Yangyang Shi, Weixin Si, Be
 </div>
 </div>
 
-## 🩺 Dose Prediction
-
-<div class='paper-box'>
-<div class='paper-box-image'>
-  <div class='paper-status-badge'>Review Paper · In preparation</div>
-  <div class='placeholder-card'>Paper image placeholder</div>
-</div>
-<div class='paper-box-text' markdown="1">
-**A Review of Dose Prediction Methods for Tumor Radiation Therapy**  
-[Please fill in the full author list here, with **Canwei Liu** highlighted.]  
-*Collaborative review paper / manuscript in preparation.*
-
-<details>
-<summary>Paper Summary</summary>
-
-- **My Roles**: Writing
-- **Abstract**: This review summarizes recent dose prediction methods for tumor radiation therapy, with a focus on data-driven and deep learning based approaches for improving treatment planning quality and efficiency.
-
-</details>
-</div>
-</div>
-
 ## 🕸️ Graph Representation Learning
 
 <div class='paper-box'>
 <div class='paper-box-image'>
-  <div class='paper-status-badge'>Mathematics · SCI Q2</div>
+  <div class='paper-status-badge'>Mathematics · SCI Q1</div>
   <div class='placeholder-card'>Paper image placeholder</div>
 </div>
 <div class='paper-box-text' markdown="1">
@@ -88,32 +66,11 @@ Xiaoyan Kui, **Canwei Liu**, Qinsong Li, Zhipeng Hu, Yangyang Shi, Weixin Si, Be
 </div>
 </div>
 
-<div class='paper-box'>
-<div class='paper-box-image'>
-  <div class='paper-status-badge'>SmartCom / LNCS · EI · CCF-C</div>
-  <div class='placeholder-card'>Paper image placeholder</div>
-</div>
-<div class='paper-box-text' markdown="1">
-**A Survey of Recommender Systems Based on Hypergraph Neural Networks**  
-**Canwei Liu**, Tingqin He, Hangyu Zhu, Yanlu Li, Songyou Xie, Osama Hosam  
-*Smart Computing and Communication (SmartCom / LNCS 13828)*, 2023.  
-[[DOI]](https://doi.org/10.1007/978-3-031-28124-2_10)
-
-<details>
-<summary>Paper Summary</summary>
-
-- **My Roles**: Idea, Writing
-- **Abstract**: This survey reviews recommender systems based on hypergraph neural networks, summarizing their main research directions, advantages, and open challenges in recommendation scenarios.
-
-</details>
-</div>
-</div>
-
 ## ⚡ Power Systems and Smart Grid Analytics
 
 <div class='paper-box'>
 <div class='paper-box-image'>
-  <div class='paper-status-badge'>Energies · SCI Q3</div>
+  <div class='paper-status-badge'>Energies · SCI Q1</div>
   <div class='placeholder-card'>Paper image placeholder</div>
 </div>
 <div class='paper-box-text' markdown="1">
