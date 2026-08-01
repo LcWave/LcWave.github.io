@@ -45,10 +45,15 @@ Xiaoyan Kui, **Canwei Liu**, Qinsong Li, Zhipeng Hu, Yangyang Shi, Weixin Si, Be
   </div>
 </div>
 
-## 🩺 Medical AI
+## 🩺 Dose Prediction
 
 <div class='paper-box'>
-  <div class='paper-box-text' style='max-width: 100%;' markdown="1">
+  <div class='paper-box-image'>
+    <div class='paper-status-badge'>CMPB · Submitted</div>
+    <img src='images/HyperDose.png' alt='HyperDose framework' width='100%'>
+  </div>
+
+  <div class='paper-box-text' markdown="1">
 **HyperDose: A Structure-Aware Dual-Scale Hypergraph Method for 3D Radiotherapy Dose Prediction**  
 Xiaoyan Kui, **Canwei Liu**, Yangyang Shi, Qinsong Li, Zhipeng Hu, Weixin Si, Beiji Zou  
 *Submitted to Computer Methods and Programs in Biomedicine, July 2026*.
@@ -56,7 +61,7 @@ Xiaoyan Kui, **Canwei Liu**, Yangyang Shi, Qinsong Li, Zhipeng Hu, Weixin Si, Be
 <details>
   <summary>Paper Summary</summary>
   <ul class="paper-summary-list">
-    <li><strong>My Roles</strong>: Conceptualization, Methodology, Software, Validation, Investigation, Writing—Original Draft, Funding Acquisition</li>
+    <li><strong>My Roles</strong>: Idea, Experiments, Writing</li>
     <li><strong>Abstract</strong>: This paper introduces HyperDose, a structure-aware method for 3D radiotherapy dose prediction. It converts clinically delineated targets and organs at risk into anatomical hyperedges, combines them with local spatial and adaptive feature-neighbor relations at two semantic scales, and embeds this dual-scale relation refinement into a coarse-to-fine prediction network. Evaluations on the public OpenKBP benchmark and an in-house lung cancer dataset show improved dose and DVH prediction over the reproduced baselines.</li>
   </ul>
 </details>
