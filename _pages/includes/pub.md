@@ -12,7 +12,7 @@
 **TFKAN: Time-Frequency KAN for Long-Term Time Series Forecasting**  
 Xiaoyan Kui, **Canwei Liu**, Qinsong Li, Zhipeng Hu, Yangyang Shi, Weixin Si, Beiji Zou  
 *Accepted by Neurocomputing, July 2026* (**SCI Q1**, **CCF-C**).  
-[[arXiv]](https://arxiv.org/abs/2506.12696)
+[[Neurocomputing]](https://www.sciencedirect.com/science/article/pii/S0925231226019569)
 
 <details>
   <summary>Paper Summary</summary>
