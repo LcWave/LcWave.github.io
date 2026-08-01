@@ -4,14 +4,14 @@
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div class='paper-status-badge'>Neurocomputing · SCI Q1 · CCF-C · RRC</div>
+    <div class='paper-status-badge'>Neurocomputing · SCI Q1 · CCF-C · Accepted</div>
     <img src='images/TFKAN.png' alt='TFKAN graphical abstract' width='100%'>
   </div>
 
   <div class='paper-box-text' markdown="1">
 **TFKAN: Time-Frequency KAN for Long-Term Time Series Forecasting**  
 Xiaoyan Kui, **Canwei Liu**, Qinsong Li, Zhipeng Hu, Yangyang Shi, Weixin Si, Beiji Zou  
-*Under review at Neurocomputing* (**SCI Q1**, **CCF-C**, **RRC status**).  
+*Accepted by Neurocomputing, July 2026* (**SCI Q1**, **CCF-C**).  
 [[arXiv]](https://arxiv.org/abs/2506.12696)
 
 <details>
@@ -26,20 +26,38 @@ Xiaoyan Kui, **Canwei Liu**, Qinsong Li, Zhipeng Hu, Yangyang Shi, Weixin Si, Be
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div class='paper-status-badge'>KBS · SCI Q1 · CCF-C · UR after revision</div>
+    <div class='paper-status-badge'>KBS · SCI Q1 · CCF-C · Minor revision resubmitted</div>
     <img src='images/MPJL.png' alt='MPJL framework' width='100%'>
   </div>
 
   <div class='paper-box-text' markdown="1">
 **Multi-Period Joint Learning with Period-Aligned Relational Imaging for Industrial Multivariate Time-Series Anomaly Detection**  
 **Canwei Liu**, Lei Chen, Zhipeng Hu, Shen Jiang, Ying Zou, Tingqin He  
-*Under review after revision at Knowledge-Based Systems* (**SCI Q1**, **CCF-C**).
+*Minor revision resubmitted to Knowledge-Based Systems, August 2026* (**SCI Q1**, **CCF-C**).
 
 <details>
   <summary>Paper Summary</summary>
   <ul class="paper-summary-list">
     <li><strong>My Roles</strong>: Idea, Experiments, Writing</li>
     <li><strong>Abstract</strong>: This paper proposes MPJL, a period-prior-informed framework for unsupervised anomaly detection in industrial multivariate time series. To address multi-scale periodicity, non-stationary phase drift, and impulsive sensor noise, the method integrates timestamp-centric GAF relational imaging, multi-period adaptive experts configured by ERF alignment, a drift-aware predictive objective, and an optimistic expert aggregation rule. Experiments on industrial benchmarks show competitive overall performance, with particularly strong threshold-free ranking ability and improved robustness under proxy, pooling, and threshold variations.</li>
+  </ul>
+</details>
+  </div>
+</div>
+
+## 🩺 Medical AI
+
+<div class='paper-box'>
+  <div class='paper-box-text' style='max-width: 100%;' markdown="1">
+**HyperDose: A Structure-Aware Dual-Scale Hypergraph Method for 3D Radiotherapy Dose Prediction**  
+Xiaoyan Kui, **Canwei Liu**, Yangyang Shi, Qinsong Li, Zhipeng Hu, Weixin Si, Beiji Zou  
+*Submitted to Computer Methods and Programs in Biomedicine, July 2026*.
+
+<details>
+  <summary>Paper Summary</summary>
+  <ul class="paper-summary-list">
+    <li><strong>My Roles</strong>: Conceptualization, Methodology, Software, Validation, Investigation, Writing—Original Draft, Funding Acquisition</li>
+    <li><strong>Abstract</strong>: This paper introduces HyperDose, a structure-aware method for 3D radiotherapy dose prediction. It converts clinically delineated targets and organs at risk into anatomical hyperedges, combines them with local spatial and adaptive feature-neighbor relations at two semantic scales, and embeds this dual-scale relation refinement into a coarse-to-fine prediction network. Evaluations on the public OpenKBP benchmark and an in-house lung cancer dataset show improved dose and DVH prediction over the reproduced baselines.</li>
   </ul>
 </details>
   </div>
