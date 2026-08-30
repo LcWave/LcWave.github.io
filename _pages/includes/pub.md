@@ -26,7 +26,7 @@ Xiaoyan Kui, **Canwei Liu**, Qinsong Li, Zhipeng Hu, Yangyang Shi, Weixin Si, Be
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div class='paper-status-badge'>KBS · SCI Q1 · CCF-C · Minor revision resubmitted</div>
+    <div class='paper-status-badge'>KBS · SCI Q1 · CCF-C · R3 Minor revision</div>
     <img src='images/MPJL.png' alt='MPJL framework' width='100%'>
   </div>
 
@@ -49,14 +49,14 @@ Xiaoyan Kui, **Canwei Liu**, Qinsong Li, Zhipeng Hu, Yangyang Shi, Weixin Si, Be
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div class='paper-status-badge'>CMPB · Submitted</div>
+    <div class='paper-status-badge'>BSPC · UR</div>
     <img src='images/HyperDose.png' alt='HyperDose framework' width='100%'>
   </div>
 
   <div class='paper-box-text' markdown="1">
 **HyperDose: A Structure-Aware Dual-Scale Hypergraph Method for 3D Radiotherapy Dose Prediction**  
 Xiaoyan Kui, **Canwei Liu**, Yangyang Shi, Qinsong Li, Zhipeng Hu, Weixin Si, Beiji Zou  
-*Submitted to Computer Methods and Programs in Biomedicine, July 2026*.
+*Submitted to Biomedical Signal Processing and Control, July 2026*.
 
 <details>
   <summary>Paper Summary</summary>

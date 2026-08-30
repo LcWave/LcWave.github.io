@@ -4,4 +4,4 @@
 
 - **2026.07**: *TFKAN: Time-Frequency KAN for Long-Term Time Series Forecasting* was **accepted** by **Neurocomputing** (**SCI Q1**, **CCF-C**).
 
-- **2026.07**: Submitted *HyperDose: A Structure-Aware Dual-Scale Hypergraph Method for 3D Radiotherapy Dose Prediction* to **Computer Methods and Programs in Biomedicine**.
+- **2026.07**: Submitted *HyperDose: A Structure-Aware Dual-Scale Hypergraph Method for 3D Radiotherapy Dose Prediction* to **Biomedical Signal Processing and Control**.
