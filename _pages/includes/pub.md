@@ -4,21 +4,20 @@
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div class='paper-status-badge'>Neurocomputing · SCI Q1 · CCF-C · Accepted</div>
-    <img src='images/TFKAN.png' alt='TFKAN graphical abstract' width='100%'>
+    <div class='paper-status-badge'>KBS · SCI Q1 · CCF-C · Accepted</div>
+    <img src='images/MPJL.png' alt='MPJL framework' width='100%'>
   </div>
 
   <div class='paper-box-text' markdown="1">
-**TFKAN: Time-Frequency KAN for Long-Term Time Series Forecasting**  
-Xiaoyan Kui, **Canwei Liu**, Qinsong Li, Zhipeng Hu, Yangyang Shi, Weixin Si, Beiji Zou  
-*Accepted by Neurocomputing, July 2026* (**SCI Q1**, **CCF-C**).  
-[[Neurocomputing]](https://www.sciencedirect.com/science/article/pii/S0925231226019569)
+**Multi-Period Joint Learning with Period-Aligned Relational Imaging for Industrial Multivariate Time-Series Anomaly Detection**  
+**Canwei Liu**, Lei Chen, Zhipeng Hu, Shen Jiang, Ying Zou, Tingqin He  
+*Accepted by Knowledge-Based Systems, November 2026* (**SCI Q1**, **CCF-C**).
 
 <details>
   <summary>Paper Summary</summary>
   <ul class="paper-summary-list">
     <li><strong>My Roles</strong>: Idea, Experiments, Writing</li>
-    <li><strong>Abstract</strong>: This paper introduces TFKAN, a dual-branch time-frequency Kolmogorov-Arnold Network for long-term time-series forecasting. The method extends KANs from the time domain to the Fourier spectrum, enabling adaptive B-spline basis functions to model sparse and localized spectral peaks associated with periodic signals. By jointly learning temporal dynamics and frequency-domain structure, while sharing KAN processing over complex spectral components and selectively enhancing frequency representations, TFKAN achieves strong forecasting performance across multiple public benchmarks.</li>
+    <li><strong>Abstract</strong>: This paper proposes MPJL, a period-prior-informed framework for unsupervised anomaly detection in industrial multivariate time series. To address multi-scale periodicity, non-stationary phase drift, and impulsive sensor noise, the method integrates timestamp-centric GAF relational imaging, multi-period adaptive experts configured by ERF alignment, a drift-aware predictive objective, and an optimistic expert aggregation rule. Experiments on industrial benchmarks show competitive overall performance, with particularly strong threshold-free ranking ability and improved robustness under proxy, pooling, and threshold variations.</li>
   </ul>
 </details>
   </div>
@@ -26,20 +25,21 @@ Xiaoyan Kui, **Canwei Liu**, Qinsong Li, Zhipeng Hu, Yangyang Shi, Weixin Si, Be
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div class='paper-status-badge'>KBS · SCI Q1 · CCF-C · R3 Minor revision</div>
-    <img src='images/MPJL.png' alt='MPJL framework' width='100%'>
+    <div class='paper-status-badge'>Neurocomputing · SCI Q1 · CCF-C · Published</div>
+    <img src='images/TFKAN.png' alt='TFKAN graphical abstract' width='100%'>
   </div>
 
   <div class='paper-box-text' markdown="1">
-**Multi-Period Joint Learning with Period-Aligned Relational Imaging for Industrial Multivariate Time-Series Anomaly Detection**  
-**Canwei Liu**, Lei Chen, Zhipeng Hu, Shen Jiang, Ying Zou, Tingqin He  
-*Minor revision resubmitted to Knowledge-Based Systems, August 2026* (**SCI Q1**, **CCF-C**).
+**TFKAN: Time-Frequency KAN for Long-Term Time Series Forecasting**  
+Xiaoyan Kui, **Canwei Liu**, Qinsong Li, Zhipeng Hu, Yangyang Shi, Weixin Si, Beiji Zou  
+*Neurocomputing*, 701: 134558, 2026 (**SCI Q1**, **CCF-C**).  
+[[Neurocomputing]](https://www.sciencedirect.com/science/article/pii/S0925231226019569) [[DOI]](https://doi.org/10.1016/j.neucom.2026.134558) [[Code]](https://github.com/LcWave/TFKAN)
 
 <details>
   <summary>Paper Summary</summary>
   <ul class="paper-summary-list">
     <li><strong>My Roles</strong>: Idea, Experiments, Writing</li>
-    <li><strong>Abstract</strong>: This paper proposes MPJL, a period-prior-informed framework for unsupervised anomaly detection in industrial multivariate time series. To address multi-scale periodicity, non-stationary phase drift, and impulsive sensor noise, the method integrates timestamp-centric GAF relational imaging, multi-period adaptive experts configured by ERF alignment, a drift-aware predictive objective, and an optimistic expert aggregation rule. Experiments on industrial benchmarks show competitive overall performance, with particularly strong threshold-free ranking ability and improved robustness under proxy, pooling, and threshold variations.</li>
+    <li><strong>Abstract</strong>: This paper introduces TFKAN, a dual-branch time-frequency Kolmogorov-Arnold Network for long-term time-series forecasting. The method extends KANs from the time domain to the Fourier spectrum, enabling adaptive B-spline basis functions to model sparse and localized spectral peaks associated with periodic signals. By jointly learning temporal dynamics and frequency-domain structure, while sharing KAN processing over complex spectral components and selectively enhancing frequency representations, TFKAN achieves strong forecasting performance across multiple public benchmarks.</li>
   </ul>
 </details>
   </div>
