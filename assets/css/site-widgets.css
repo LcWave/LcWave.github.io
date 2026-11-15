@@ -1,0 +1,41 @@
+/* A quiet reading companion, separate from the academic navigation. */
+.masthead__inner-wrap { display: flex; align-items: center; gap: 1rem; }
+.masthead__inner-wrap::before, .masthead__inner-wrap::after { display: none; }
+.masthead__menu { flex: 1 1 auto; min-width: 0; }
+.masthead .greedy-nav { min-width: 0; }
+.paper-daily-entry {
+  display: inline-flex; flex: 0 0 auto; align-items: center; justify-content: center;
+  gap: 7px; min-height: 48px; padding: 0 5px; border-radius: 8px;
+  color: #43546a; text-decoration: none;
+}
+.paper-daily-entry:visited { color: #43546a; }
+.paper-daily-entry:hover, .paper-daily-entry[aria-current="page"] {
+  color: #194f60; background: #f2f6f6;
+}
+.paper-daily-entry:focus-visible { outline: 2px solid #287485; outline-offset: 3px; }
+.paper-daily-entry__owl {
+  display: block; width: 42px; height: 48px; flex: 0 0 auto;
+  transform-origin: center bottom; transition: transform 180ms ease;
+}
+.paper-daily-entry__label {
+  display: block; font-size: 12px; line-height: 1.28; font-weight: 600; letter-spacing: .01em;
+}
+.paper-daily-entry__label > span { display: block; }
+.paper-daily-entry__arrow { font-size: 11px; color: #557e85; }
+.visitor-map { margin-top: 1rem; }
+.visitor-map a { display: block; }
+.visitor-map img { display: block; width: 100%; height: auto; }
+@media (hover: hover) {
+  .paper-daily-entry:hover .paper-daily-entry__owl { transform: translateY(-2px) rotate(-3deg); }
+}
+@media (max-width: 480px) {
+  .masthead__inner-wrap { gap: 8px; }
+  .paper-daily-entry { gap: 5px; padding: 0 3px; }
+  .paper-daily-entry__owl { width: 36px; height: 44px; }
+  .paper-daily-entry__label { font-size: 11px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .paper-daily-entry__owl { transition: none; }
+  .paper-daily-entry:hover .paper-daily-entry__owl { transform: none; }
+}
+@media print { .paper-daily-entry, .visitor-map { display: none; } }

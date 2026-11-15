@@ -1,0 +1,8 @@
+# Inactive reference only. Not rendered or loaded by the site.
+# Original account and statistics remain untouched.
+provider: ClustrMaps
+stats_url: "https://clustrmaps.com/site/1c3ue"
+widget_id: "1ViRxk9XQPyjX2YBzkWCaMQr81eTgOJAODyBUZVVNF4"
+original_source_commit: "66091f48bf9b7641822faa44434fa7ad939b8b73"
+original_embed: |
+  <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=1ViRxk9XQPyjX2YBzkWCaMQr81eTgOJAODyBUZVVNF4&cl=ffffff&w=a"></script>
