@@ -1,8 +1,8 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav aria-label="Main navigation" id="site-nav" class="greedy-nav">
-        <button aria-label="Open navigation menu"><div class="navicon"></div></button>
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
           {% for link in site.data.navigation.main %}
@@ -11,10 +11,6 @@
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
-      <div class="language-switch" role="group" aria-label="Language / 语言">
-        <button type="button" data-set-language="en" lang="en" aria-pressed="true">EN</button>
-        <button type="button" data-set-language="zh" lang="zh-CN" aria-pressed="false">中文</button>
-      </div>
     </div>
   </div>
 </div>
