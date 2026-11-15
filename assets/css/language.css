@@ -1,0 +1,16 @@
+/* Keep the existing academic-page layout; only the language control is new. */
+html:not([data-language="zh"]) [data-lang="zh"],
+html[data-language="zh"] [data-lang="en"] { display: none !important; }
+.masthead__menu { display: flex; align-items: center; gap: 1rem; }
+.masthead__menu .greedy-nav { flex: 1 1 auto; min-width: 0; }
+.language-switch { display: flex; flex: 0 0 auto; gap: .2rem; }
+.language-switch button { background: transparent; color: #666; border: 1px solid transparent; border-radius: 4px; padding: .35rem .5rem; font: inherit; font-size: .8rem; cursor: pointer; line-height: 1.4; }
+.language-switch button[aria-pressed="true"] { color: #2163a6; border-color: #d8e3ee; background: #f5f8fb; }
+.language-switch button:focus-visible { outline: 2px solid #2163a6; outline-offset: 2px; }
+html[lang="zh-CN"] .page__content { line-height: 1.8; }
+@media (max-width: 600px) {
+ .masthead__menu { gap: .4rem; }
+ .greedy-nav a { margin: 0 .45rem; }
+ .language-switch button { padding: .35rem .4rem; font-size: 14px; min-height: 36px; }
+ .paper-box-text { overflow-wrap: anywhere; }
+}
