@@ -15,6 +15,7 @@
 
 ## Scholarships and Honors
 
+- *2024* **Outstanding Graduate of Hunan Province**
 - *2024.12, 2025.12* **First-class Scholarship for Graduate Students**, Central South University  
 - *2021.12, 2022.12, 2023.12* **First-class Scholarship for Academic Excellence**, Hunan University of Science and Technology  
 - *2022.05, 2023.05* **Outstanding Communist Youth League Member**  
