@@ -23,7 +23,7 @@ footer{padding:25px 0 40px;border-top:1px solid var(--accent);display:flex;justi
 </style>
 </head><body>
 <div class="wrap">
-<header><a class="brand" href="#about">Canwei Liu</a><nav aria-label="Main navigation"><a href="#about">About</a><a href="#news">News</a><a href="#publications">Publications</a><a href="#awards">Awards</a><a href="#education">Education</a><a href="/paper-daily/">Paper Daily</a></nav></header>
+<header><a class="brand" href="#about">Canwei Liu</a><nav aria-label="Main navigation"><a href="#about">About</a><a href="#news">News</a><a href="#papers-section">Publications</a><a href="#awards">Awards</a><a href="#education">Education</a><a href="/paper-daily/">Paper Daily</a></nav></header>
 <p class="preview-note">Design preview · <a href="/">View current homepage</a></p>
 <main>
 <div id="about" class="hero">
@@ -33,7 +33,7 @@ footer{padding:25px 0 40px;border-top:1px solid var(--accent);display:flex;justi
 <img class="portrait" src="/images/profile.jpg" alt="Canwei Liu" width="190" height="238">
 </div>
 <section id="news" class="news">{% capture news %}{% include_relative includes/news.md %}{% endcapture %}{{ news | replace: '🔥 ', '' | markdownify | replace: 'id="news"', 'id="news-heading"' }}</section>
-<section id="publications" class="publications">{% capture papers %}{% include_relative includes/pub.md %}{% endcapture %}{{ papers | replace: '# 📝 Publications', '## Publications' | replace: '📈 ', '' | replace: '🩺 ', '' | replace: '🕸️ ', '' | replace: '⚡ ', '' | replace: "src='images/", "src='/images/" | markdownify }}</section>
+<section id="papers-section" class="publications">{% capture papers %}{% include_relative includes/pub.md %}{% endcapture %}{{ papers | replace: '# 📝 Publications', '## Publications' | replace: '📈 ', '' | replace: '🩺 ', '' | replace: '🕸️ ', '' | replace: '⚡ ', '' | replace: "src='images/", "src='/images/" | markdownify }}</section>
 <section id="awards" class="honors">{% capture honors %}{% include_relative includes/honers.md %}{% endcapture %}{{ honors | replace: '# 🎖 Honors and Awards', '## Honors and Awards' | markdownify }}</section>
 <section id="education" class="education">{% capture education %}{% include_relative includes/others.md %}{% endcapture %}{{ education | replace: '🎓 ', '' | markdownify | replace: 'id="education"', 'id="education-heading"' }}</section>
 </main><footer><span>Canwei Liu · Central South University</span><a href="/">Back to current homepage</a></footer>
