@@ -22,11 +22,15 @@
 }
 .paper-daily-entry__label > span { display: block; }
 .paper-daily-entry__arrow { font-size: 11px; color: #557e85; }
-.visitor-map { margin-top: 1rem; }
+.visitor-map { max-width: 180px; margin-top: 1rem; }
 .visitor-map a { display: block; }
 .visitor-map img { display: block; width: 100%; height: auto; }
 @media (hover: hover) {
   .paper-daily-entry:hover .paper-daily-entry__owl { transform: translateY(-2px) rotate(-3deg); }
+}
+/* Reserve the dropdown hit area even during the theme's first resize pass. */
+@media (max-width: 48em) {
+  .masthead .greedy-nav { padding-right: 48px; }
 }
 @media (max-width: 480px) {
   .masthead__inner-wrap { gap: 8px; }
