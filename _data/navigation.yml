@@ -14,3 +14,6 @@ main:
 
   - title: "Education"
     url: "/#-education"
+
+  - title: "Paper Daily"
+    url: "/paper-daily/"
